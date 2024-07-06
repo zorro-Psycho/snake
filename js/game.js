@@ -268,4 +268,3 @@ function restart() {
 function postScore(score) {
   parent.postMessage({ type: 'submit-score', score: score }, '*');
 }
-
