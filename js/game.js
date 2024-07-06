@@ -266,5 +266,5 @@ function restart() {
 }
 
 function postScore(score) {
-  parent.postMessage({ type: 'submit-score', score: score }, 'https://zorro-psycho.github.io');
+  parent.postMessage({ type: 'submit-score', score: score }, '*');
 }
